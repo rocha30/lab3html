@@ -16,29 +16,30 @@
         El hombre te explica que ahora eres el guardián del bosque, y tu vida cambia para siempre.</p>
     <p>Vives el resto de tus días protegiendo el bosque y ayudando a quienes se pierden en él, 
         guiándolos hacia su destino.</p>
-        <img src="assets/abrol.jpg" alt="Árbol antiguo con raíces doradas">
+        <img src="../assets/abrol.jpg" alt="Árbol antiguo con raíces doradas">
     
     <h2>Fin de la historia.</h2>
-    <p><a href="index,html">No se como referenciar el index jajssjs </a></p>
+    <p><a href="../index.html">Regresar a la página principal </a></p>
     <h1>Formulario de Recomendaciones</h1>
     <p>¡Gracias por vivir esta aventura en el bosque! Por favor, déjanos tu opinión para mejorar.</p>
     <form action="#" method="post">
-        <!-- Input de texto: Nombre del aventurero -->
+        
+    
         <label for="nombre">Nombre del Aventurero:</label><br>
         <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required><br><br>
 
-        <!-- Radio buttons: ¿Te gustó la historia? -->
+        
         <label>¿Te gustó la historia?</label><br>
         <input type="radio" id="gusto_si" name="gusto" value="si" required>
         <label for="gusto_si">Sí, me encantó</label><br>
         <input type="radio" id="gusto_no" name="gusto" value="no" required>
         <label for="gusto_no">No, no me gustó</label><br><br>
 
-        <!-- Textarea: ¿Qué le cambiarías? -->
+        
         <label for="cambios">¿Qué le cambiarías a la historia?</label><br>
         <textarea id="cambios" name="cambios" rows="4" placeholder="Escribe tus sugerencias..." required></textarea><br><br>
 
-        <!-- Select: ¿Recomendarías la historia? -->
+        
         <label for="recomendacion">¿Recomendarías esta historia a otros?</label><br>
         <select id="recomendacion" name="recomendacion" required>
             <option value="" disabled selected>Selecciona una opción</option>
@@ -47,12 +48,12 @@
             <option value="no">No, no la recomendaría</option>
         </select><br><br>
 
-        <!-- Checkbox: Aceptar términos -->
+        
         <label for="terminos">Acepto que mis respuestas sean usadas para mejorar la historia:</label><br>
         <input type="checkbox" id="terminos" name="terminos" required>
         <label for="terminos">Sí, acepto</label><br><br>
 
-        <!-- Botón de submit -->
+        
         <button type="submit">Enviar Recomendación</button>
     </form>
 </body>
